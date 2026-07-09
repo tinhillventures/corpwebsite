@@ -4,285 +4,284 @@
     <title>Tin Hill Ventures | Consulting & Investments</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Core -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts: Playfair Display for Editorial Serifs & Inter for Body -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
     <style>
         body { font-family: 'Inter', sans-serif; }
+        .serif-title { font-family: 'Playfair Display', serif; }
     </style>
 </head>
-<body class="bg-slate-50 text-slate-900 antialiased">
+<body class="bg-[#faf9f6] text-slate-900 antialiased selection:bg-amber-100">
 
-   <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-200">
-        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-            <div class="flex items-center space-x-3">
-                <div>
-                    <span class="text-xl font-bold tracking-tight text-slate-950 block">Tin Hill Ventures</span>
-                    <span class="text-xs tracking-wide text-slate-500 block">Consulting . Capital</span>
-                </div>
+    <!-- Minimal, High-Contrast Navigation -->
+    <header class="sticky top-0 z-50 bg-[#faf9f6]/90 backdrop-blur-md border-b border-stone-200">
+        <div class="max-w-7xl mx-auto px-8 h-24 flex items-center justify-between">
+            <div class="flex flex-col">
+                <span class="serif-title text-2xl font-bold tracking-tight text-stone-900 leading-none">Tin Hill Ventures</span>
+                <span class="text-[10px] tracking-widest text-amber-700 font-mono uppercase mt-1">Consulting • Capital</span>
             </div>
-            <nav class="hidden md:flex items-center space-x-8 font-medium text-sm text-slate-600">
-                <a href="#about" class="hover:text-slate-900 transition-colors">About</a>
-                <a href="#advising" class="hover:text-slate-900 transition-colors">Advising</a>
-                <a href="#investing" class="hover:text-slate-900 transition-colors">Investing</a>
-                <a href="#case-studies" class="hover:text-slate-900 transition-colors">Case Studies</a>
-                <a href="#contact" class="bg-slate-900 text-white px-5 py-2.5 rounded-lg hover:bg-slate-800 transition-all shadow-sm">Contact Us</a>
+            <nav class="hidden md:flex items-center space-x-10 text-xs uppercase tracking-widest font-medium text-stone-600">
+                <a href="#about" class="hover:text-amber-700 transition-colors">About</a>
+                <a href="#advising" class="hover:text-amber-700 transition-colors">Advising</a>
+                <a href="#investing" class="hover:text-amber-700 transition-colors">Investing</a>
+                <a href="#case-studies" class="hover:text-amber-700 transition-colors">Case Studies</a>
+                <a href="#contact" class="border border-stone-900 text-stone-900 px-6 py-3 hover:bg-stone-900 hover:text-white transition-all duration-300">Contact Us</a>
             </nav>
         </div>
     </header>
 
-    <section class="relative bg-gradient-to-br from-slate-900 via-slate-800 to-indigo-950 text-white py-24 lg:py-32 overflow-hidden">
-        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#f8fafc_1px,transparent_1px)] [background-size:16px_16px]"></div>
-        <div class="max-w-7xl mx-auto px-6 relative z-10 grid lg:grid-cols-12 gap-12 items-center">
-            <div class="lg:col-span-8 space-y-6">
-                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight">
-                    Institutional Advisory <br>Direct Capital <br><span class="text-amber-400">Accelerated Growth</span>
+    <!-- Editorial Hero Layout -->
+    <section class="relative border-b border-stone-200 py-24 sm:py-32 bg-white">
+        <div class="max-w-7xl mx-auto px-8 grid lg:grid-cols-12 gap-12 items-center">
+            <div class="lg:col-span-9 space-y-8">
+                <h1 class="serif-title text-4xl sm:text-6xl text-stone-900 leading-[1.1] tracking-tight">
+                    Institutional Advisory. <br>Direct Capital. <br><em class="font-normal text-amber-700">Accelerated Growth.</em>
                 </h1>
-                <p class="text-lg text-slate-300 max-w-2xl font-light leading-relaxed">
+                <div class="h-px w-24 bg-amber-700"></div>
+                <p class="text-lg text-stone-600 max-w-2xl font-light leading-relaxed">
                     A unique consulting and investment company headquartered in Singapore. We combine decades of experience with deep corporate networks to deliver tangible business transformation.
                 </p>
-                <div class="flex flex-wrap gap-3 text-xs font-medium uppercase tracking-wider text-slate-400 pt-2">
-                    <span class="bg-white/5 px-3 py-1.5 rounded-md border border-white/10">Banking</span>
-                    <span class="bg-white/5 px-3 py-1.5 rounded-md border border-white/10">Digitalisation</span>
-                    <span class="bg-white/5 px-3 py-1.5 rounded-md border border-white/10">Fintech</span>
-                    <span class="bg-white/5 px-3 py-1.5 rounded-md border border-white/10">Trade Finance</span>
+                <div class="flex flex-wrap gap-4 text-[10px] font-mono uppercase tracking-widest text-stone-500 pt-4">
+                    <span class="border border-stone-200 px-3 py-1.5 rounded-none bg-[#faf9f6]">Banking</span>
+                    <span class="border border-stone-200 px-3 py-1.5 rounded-none bg-[#faf9f6]">Digitalisation</span>
+                    <span class="border border-stone-200 px-3 py-1.5 rounded-none bg-[#faf9f6]">Fintech</span>
+                    <span class="border border-stone-200 px-3 py-1.5 rounded-none bg-[#faf9f6]">Trade Finance</span>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="about" class="py-20 bg-white border-b border-slate-100">
-        <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-12 gap-12 items-center">
-            <div class="lg:col-span-5 space-y-4">
-                <h2 class="text-xs uppercase tracking-widest font-bold text-indigo-600">Introduction</h2>
-                <h3 class="text-3xl font-bold tracking-tight text-slate-900">Deep Institutional Expertise. Collaborative Capital.</h3>
-                <p class="text-slate-600 leading-relaxed">
+    <!-- About / Introduction Section -->
+    <section id="about" class="py-24 bg-[#faf9f6] border-b border-stone-200">
+        <div class="max-w-7xl mx-auto px-8 grid lg:grid-cols-12 gap-16 items-start">
+            <div class="lg:col-span-5 space-y-6 lg:sticky lg:top-32">
+                <span class="text-xs uppercase tracking-widest font-mono text-amber-700 block">Introduction</span>
+                <h3 class="serif-title text-3xl sm:text-4xl text-stone-900 tracking-tight">Deep Institutional Expertise. <br>Collaborative Capital.</h3>
+                <p class="text-stone-600 font-light leading-relaxed">
                     We are a privately held consulting and investment company headquartered in Singapore. Leveraging our deep understanding of banking and technology, we possess a proven track record of working with our partners to build, operate, and improve businesses.
                 </p>
-                <p class="text-slate-600 leading-relaxed">
+                <p class="text-stone-600 font-light leading-relaxed">
                     We invest our own capital and leverage the power of our deep regional market networks and relationships, giving us a direct and personal stake in the absolute success of your business.
                 </p>
             </div>
             
-            <div class="lg:col-span-7 grid sm:grid-cols-12 gap-6">
-                <div class="sm:col-span-7 p-8 rounded-2xl bg-gradient-to-br from-white to-slate-50 border-t-2 border-l border-r border-b border-slate-200/60 border-t-indigo-600 shadow-sm space-y-3 transform hover:-translate-y-1 transition-all duration-300">
-                    <div class="text-indigo-600 text-xl"><i class="fa-solid fa-chart-line"></i></div>
-                    <h4 class="font-bold text-slate-900 tracking-tight">Capital Alignment</h4>
-                    <p class="text-sm text-slate-500 leading-relaxed">We invest from our own balance sheet directly into partnerships, creating structural long-term stakeholder alignment.</p>
+            <div class="lg:col-span-7 space-y-8">
+                <!-- Linear Minimalist Card 1 -->
+                <div class="p-8 bg-white border border-stone-200 shadow-sm space-y-4 hover:border-amber-700 transition-colors duration-300">
+                    <div class="text-amber-700 text-lg font-mono">[ 01 ]</div>
+                    <h4 class="serif-title text-xl text-stone-900">Capital Alignment</h4>
+                    <p class="text-sm text-stone-500 font-light leading-relaxed">We invest from our own balance sheet directly into partnerships, creating structural long-term stakeholder alignment.</p>
                 </div>
                 
-                <div class="sm:col-span-5 p-8 rounded-2xl bg-gradient-to-br from-white to-slate-50 border-t-2 border-l border-r border-b border-slate-200/60 border-t-amber-500 shadow-sm space-y-3 transform hover:-translate-y-1 transition-all duration-300 sm:translate-y-6">
-                    <div class="text-amber-500 text-xl"><i class="fa-solid fa-globe"></i></div>
-                    <h4 class="font-bold text-slate-900 tracking-tight">Deep Global Networks</h4>
-                    <p class="text-sm text-slate-500 leading-relaxed">Tap into decades of institutional experience and relationships spanning commercial banking, trade corridors, and regulatory channels.</p>
+                <!-- Linear Minimalist Card 2 -->
+                <div class="p-8 bg-white border border-stone-200 shadow-sm space-y-4 hover:border-amber-700 transition-colors duration-300">
+                    <div class="text-amber-700 text-lg font-mono">[ 02 ]</div>
+                    <h4 class="serif-title text-xl text-stone-900">Deep Global Networks</h4>
+                    <p class="text-sm text-stone-500 font-light leading-relaxed">Tap into decades of institutional experience and relationships spanning commercial banking, trade corridors, and regulatory channels.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="advising" class="py-20 bg-slate-50 border-b border-slate-200">
-        <div class="max-w-7xl mx-auto px-6 space-y-12">
-            <div class="max-w-3xl space-y-3">
-                <h2 class="text-xs uppercase tracking-widest font-bold text-indigo-600">Core Capabilities</h2>
-                <h3 class="text-3xl font-bold tracking-tight text-slate-900">Strategic Advisory & Consulting</h3>
-                <p class="text-slate-600">Benefit from specialized experience honed over decades at major global institutions to deliver strategic project outcomes or identify structural opportunities for continuous business transformation.</p>
-            </div>
-            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm flex flex-col justify-between">
-                    <div>
-                        <div class="w-10 h-10 bg-indigo-50 text-indigo-600 rounded-xl flex items-center justify-center mb-4"><i class="fa-solid fa-building-columns"></i></div>
-                        <h4 class="font-bold text-slate-900 mb-2">Banking & Fintech</h4>
-                        <p class="text-sm text-slate-500 leading-relaxed">Business and Financial Modeling, Business Process Reengineering, Mergers and Acquisitions</p>
-                    </div>
-                </div>
-                <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm flex flex-col justify-between">
-                    <div>
-                        <div class="w-10 h-10 bg-indigo-50 text-indigo-600 rounded-xl flex items-center justify-center mb-4"><i class="fa-solid fa-network-wired"></i></div>
-                        <h4 class="font-bold text-slate-900 mb-2">Trade & Supply Chain Finance</h4>
-                        <p class="text-sm text-slate-500 leading-relaxed">Structuring working capital instruments, ecosystem deployment, and risk minimization.</p>
-                    </div>
-                </div>
-                <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm flex flex-col justify-between">
-                    <div>
-                        <div class="w-10 h-10 bg-indigo-50 text-indigo-600 rounded-xl flex items-center justify-center mb-4"><i class="fa-solid fa-shuffle"></i></div>
-                        <h4 class="font-bold text-slate-900 mb-2">Post-Merger Integration</h4>
-                        <p class="text-sm text-slate-500 leading-relaxed">Multi-country operations transition, Transitional Service Agreement design and management, and 3rd Party Contracts review and recontracting management.</p>
-                    </div>
-                </div>
-                <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm flex flex-col justify-between">
-                    <div>
-                        <div class="w-10 h-10 bg-indigo-50 text-indigo-600 rounded-xl flex items-center justify-center mb-4"><i class="fa-solid fa-rocket"></i></div>
-                        <h4 class="font-bold text-slate-900 mb-2">Growth Stage Startups</h4>
-                        <p class="text-sm text-slate-500 leading-relaxed">Developing actionable funding strategies, navigating complex capitalization challenges, and structuring strategic investments to accelerate market scaling.</p>
-                    </div>
-                </div> <!-- BUG FIXED: Crucial closing layer safely added here -->
-            </div>
-        </div>
-    </section>
-
-    <section id="investing" class="py-20 bg-white border-b border-slate-200">
-        <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-12 gap-12 items-center">
-            <div class="lg:col-span-7 space-y-6">
-                <div class="space-y-3">
-                    <h2 class="text-xs uppercase tracking-widest font-bold text-amber-600">Risk-Sharing Capital</h2>
-                    <h3 class="text-3xl font-bold tracking-tight text-slate-900">Agile Capital Solutions</h3>
-                </div>
-                <p class="text-slate-600 leading-relaxed">
-                    We focus actively on trade, receivable assets, and supply-chain structures to work closely with small and medium enterprises. By avoiding rigid conventional approaches, we structure customized funding models optimized for execution speed.
-                </p>
-                <ul class="space-y-3 text-slate-700">
-                    <li class="flex items-start gap-3"><i class="fa-solid fa-circle-check text-emerald-500 mt-1"></i> <span><strong>Experienced Entrepreneurs:</strong> Extensive experience establishing, operating, and scaling our own businesses mean we speak the same language.</span></li>
-                    <li class="flex items-start gap-3"><i class="fa-solid fa-circle-check text-emerald-500 mt-1"></i> <span><strong>Agile Timeline Execution:</strong> Focused on short-to-medium term deployment cycles delivering structural outcomes within 12 months.</span></li>
-                    <li class="flex items-start gap-3"><i class="fa-solid fa-circle-check text-emerald-500 mt-1"></i> <span><strong>Flexible Structures:</strong> Unencumbered by traditional approaches provide ability to structure funding configurations that make sense.</span></li>
-                    <li class="flex items-start gap-3"><i class="fa-solid fa-circle-check text-emerald-500 mt-1"></i> <span><strong>Digital Ecosystems:</strong> Prioritising funding where data availability replaces outdated legal or structural mitigants.</span></li>
-                </ul>
-            </div>
-
-            <div class="lg:col-span-5 bg-slate-900/80 backdrop-blur-xl text-white p-8 rounded-3xl space-y-6 shadow-2xl relative border border-white/10 overflow-hidden group hover:border-amber-400/30 transition-all duration-500">
-                <div class="absolute -top-10 -right-10 w-32 h-32 bg-amber-400/10 rounded-full blur-2xl group-hover:bg-amber-400/20 transition-all duration-500"></div>
-                <div class="absolute top-0 right-0 p-6 opacity-5 text-8xl"><i class="fa-solid fa-handshake"></i></div>
-                
-                <h4 class="text-xl font-bold text-amber-400 tracking-tight flex items-center gap-2">
-                    <span class="w-1.5 h-1.5 rounded-full bg-amber-400 animate-pulse"></span>
-                    Why Partners Trust Us
-                </h4>
-                <p class="text-sm text-slate-300 leading-relaxed font-light relative z-10">
-                    "We allocate our personal and firm balance sheet directly into our partnerships. We offer unparalleled speed, structural flexibility, and execution certainty. A quick "No" is better than an eternity of uncertainty and our solutions are customized for each unique business."
-                </p>
-                <div class="border-t border-slate-800/80 pt-4 flex items-center justify-between text-[10px] text-slate-400 tracking-widest uppercase font-mono relative z-10">
-                    <span>"Skin in the Game"</span>
-                    <span>"Solutions Really Meet Business Needs"</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="case-studies" class="py-20 bg-slate-50 border-b border-slate-200">
-        <div class="max-w-7xl mx-auto px-6 space-y-12">
-            <div class="max-w-3xl space-y-3">
-                <h2 class="text-xs uppercase tracking-widest font-bold text-indigo-600">Track Record</h2>
-                <h3 class="text-3xl font-bold tracking-tight text-slate-900">Operational Case Studies</h3>
-                <p class="text-slate-600">Proven delivery and investments across multiple industries and countries.</p>
+    <!-- Advising Services Pillar -->
+    <section id="advising" class="py-24 bg-white border-b border-stone-200">
+        <div class="max-w-7xl mx-auto px-8 space-y-16">
+            <div class="max-w-3xl space-y-4">
+                <span class="text-xs uppercase tracking-widest font-mono text-amber-700 block">Core Capabilities</span>
+                <h3 class="serif-title text-3xl sm:text-4xl text-stone-900">Strategic Advisory & Consulting</h3>
+                <p class="text-stone-600 font-light">Benefit from specialized experience honed over decades at major global institutions to deliver strategic project outcomes or identify structural opportunities for continuous business transformation.</p>
             </div>
             
-            <!-- Custom-tuned asymmetric track-record grid system -->
-            <div class="grid grid-cols-1 md:grid-cols-12 gap-8">
-                
-                <!-- Large Scope Transformation 1 (Wide Layout) -->
-                <div class="md:col-span-7 bg-white rounded-2xl border border-slate-200 shadow-sm flex flex-col justify-between overflow-hidden group hover:shadow-md transition-shadow">
-                    <div class="p-6 space-y-4">
-                        <span class="inline-block px-2.5 py-1 bg-indigo-50 text-indigo-600 rounded-md text-xs font-semibold uppercase tracking-wider">Advisory / Consulting</span>
-                        <h4 class="text-lg font-bold text-slate-900">Digital Bank Assessment</h4>
-                        <div class="text-xs text-slate-500 font-mono space-y-1">
-                            <p><strong>Client:</strong> Large Diversified Southeast-Asian Conglomerate</p>
-                            <p><strong>Scope:</strong> Strategic Review of existing business and ability to build a new digital bank</p>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-px bg-stone-200 border border-stone-200">
+                <div class="bg-white p-8 space-y-6 hover:bg-stone-50/50 transition-colors">
+                    <div class="text-stone-400"><i class="fa-solid fa-building-columns text-xl"></i></div>
+                    <h4 class="serif-title text-lg font-bold text-stone-900">Banking & Fintech</h4>
+                    <p class="text-xs text-stone-500 font-light leading-relaxed">Business and Financial Modeling, Business Process Reengineering, Mergers and Acquisitions</p>
+                </div>
+                <div class="bg-white p-8 space-y-6 hover:bg-stone-50/50 transition-colors">
+                    <div class="text-stone-400"><i class="fa-solid fa-network-wired text-xl"></i></div>
+                    <h4 class="serif-title text-lg font-bold text-stone-900">Trade & Supply Chain</h4>
+                    <p class="text-xs text-stone-500 font-light leading-relaxed">Structuring working capital instruments, ecosystem deployment, and risk minimization.</p>
+                </div>
+                <div class="bg-white p-8 space-y-6 hover:bg-stone-50/50 transition-colors">
+                    <div class="text-stone-400"><i class="fa-solid fa-shuffle text-xl"></i></div>
+                    <h4 class="serif-title text-lg font-bold text-stone-900">Post-Merger Integration</h4>
+                    <p class="text-xs text-stone-500 font-light leading-relaxed">Multi-country operations transition, Transitional Service Agreement design, and 3rd Party Contracts alignment.</p>
+                </div>
+                <div class="bg-white p-8 space-y-6 hover:bg-stone-50/50 transition-colors">
+                    <div class="text-stone-400"><i class="fa-solid fa-rocket text-xl"></i></div>
+                    <h4 class="serif-title text-lg font-bold text-stone-900">Growth Stage Startups</h4>
+                    <p class="text-xs text-stone-500 font-light leading-relaxed">Developing actionable funding strategies, navigating complex capitalization, and structuring scaling frameworks.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Investing Pillar -->
+    <section id="investing" class="py-24 bg-[#faf9f6] border-b border-stone-200">
+        <div class="max-w-7xl mx-auto px-8 grid lg:grid-cols-12 gap-16 items-center">
+            <div class="lg:col-span-7 space-y-6">
+                <div class="space-y-2">
+                    <span class="text-xs uppercase tracking-widest font-mono text-amber-700 block">Risk-Sharing Capital</span>
+                    <h3 class="serif-title text-3xl sm:text-4xl text-stone-900">Agile Capital Solutions</h3>
+                </div>
+                <p class="text-stone-600 font-light leading-relaxed">
+                    We focus actively on trade, receivable assets, and supply-chain structures to work closely with small and medium enterprises. By avoiding rigid conventional approaches, we structure customized funding models optimized for execution speed.
+                </p>
+                <div class="grid sm:grid-cols-2 gap-4 pt-4 text-xs font-light text-stone-700">
+                    <div class="flex items-start gap-2"><i class="fa-solid fa-check text-amber-700 mt-0.5"></i> <span><strong>Experienced Entrepreneurs</strong></span></div>
+                    <div class="flex items-start gap-2"><i class="fa-solid fa-check text-amber-700 mt-0.5"></i> <span><strong>Agile Timeline Execution</strong></span></div>
+                    <div class="flex items-start gap-2"><i class="fa-solid fa-check text-amber-700 mt-0.5"></i> <span><strong>Flexible Structural Frameworks</strong></span></div>
+                    <div class="flex items-start gap-2"><i class="fa-solid fa-check text-amber-700 mt-0.5"></i> <span><strong>Data-Driven Ecosystems</strong></span></div>
+                </div>
+            </div>
+
+            <!-- Stark High-Contrast Quote Card -->
+            <div class="lg:col-span-5 bg-white border border-stone-200 p-8 space-y-6 shadow-sm relative">
+                <div class="w-8 h-8 border-t-2 border-l-2 border-amber-700 absolute top-0 left-0"></div>
+                <h4 class="serif-title text-lg italic text-stone-800 font-medium">Why Partners Trust Us</h4>
+                <p class="text-xs text-stone-500 leading-relaxed font-light">
+                    "We allocate our personal and firm balance sheet directly into our partnerships. We offer unparalleled speed, structural flexibility, and execution certainty. A quick 'No' is better than an eternity of uncertainty and our solutions are customized for each unique business."
+                </p>
+                <div class="border-t border-stone-100 pt-4 flex justify-between text-[9px] font-mono uppercase tracking-wider text-stone-400">
+                    <span>Direct Skin In The Game</span>
+                    <span>Bespoke Fit</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Track Record Section (Gallery Grid Style) -->
+    <section id="case-studies" class="py-24 bg-white border-b border-stone-200">
+        <div class="max-w-7xl mx-auto px-8 space-y-16">
+            <div class="max-w-3xl space-y-4">
+                <span class="text-xs uppercase tracking-widest font-mono text-amber-700 block">Track Record</span>
+                <h3 class="serif-title text-3xl sm:text-4xl text-stone-900">Operational Case Studies</h3>
+                <p class="text-stone-600 font-light">Proven delivery and investments across multiple industries and countries.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Card Format 1 -->
+                <div class="border border-stone-200 p-6 flex flex-col justify-between bg-[#faf9f6] hover:border-stone-400 transition-colors">
+                    <div class="space-y-4">
+                        <span class="text-[9px] font-mono uppercase tracking-widest text-amber-700 block">Advisory / Consulting</span>
+                        <h4 class="serif-title text-lg text-stone-900">Digital Bank Assessment</h4>
+                        <div class="text-[11px] text-stone-400 font-mono space-y-0.5 border-b border-stone-200 pb-3">
+                            <p><strong>Client:</strong> Diversified SE-Asian Conglomerate</p>
+                            <p><strong>Scope:</strong> Structural Integration Review</p>
                         </div>
-                        <p class="text-sm text-slate-600 leading-relaxed">
+                        <p class="text-xs text-stone-600 font-light leading-relaxed">
                             Advised enhancement of core businesses rather than onboarding high-risk digital banking licenses, avoiding material capital misallocation.
                         </p>
                     </div>
                 </div>
 
-                <!-- Large Scope Transformation 2 (Narrow Companion Layout) -->
-                <div class="md:col-span-5 bg-white rounded-2xl border border-slate-200 shadow-sm flex flex-col justify-between overflow-hidden group hover:shadow-md transition-shadow">
-                    <div class="p-6 space-y-4">
-                        <span class="inline-block px-2.5 py-1 bg-indigo-50 text-indigo-600 rounded-md text-xs font-semibold uppercase tracking-wider">Advisory / Consulting</span>
-                        <h4 class="text-lg font-bold text-slate-900">Regional Post-Merger Integration</h4>
-                        <div class="text-xs text-slate-500 font-mono space-y-1">
+                <!-- Card Format 2 -->
+                <div class="border border-stone-200 p-6 flex flex-col justify-between bg-[#faf9f6] hover:border-stone-400 transition-colors">
+                    <div class="space-y-4">
+                        <span class="text-[9px] font-mono uppercase tracking-widest text-amber-700 block">Advisory / Consulting</span>
+                        <h4 class="serif-title text-lg text-stone-900">Regional Post-Merger Integration</h4>
+                        <div class="text-[11px] text-stone-400 font-mono space-y-0.5 border-b border-stone-200 pb-3">
                             <p><strong>Client:</strong> Leading Regional Banking Group</p>
-                            <p><strong>Scope:</strong> Project Management</p>
+                            <p><strong>Scope:</strong> International Operations Integration</p>
                         </div>
-                        <p class="text-sm text-slate-600 leading-relaxed">
+                        <p class="text-xs text-stone-600 font-light leading-relaxed">
                             Successfully managed international post-merger integration pipelines spanning multiple regulatory frameworks. Successful transition to integrated operations within 12-months.
                         </p>
                     </div>
                 </div>
 
-                <!-- Standard Grid Items (3-column layout below major transformations) -->
-                <div class="md:col-span-4 bg-white rounded-2xl border border-slate-200 shadow-sm flex flex-col justify-between overflow-hidden group hover:shadow-md transition-shadow">
-                    <div class="p-6 space-y-4">
-                        <span class="inline-block px-2.5 py-1 bg-indigo-50 text-indigo-600 rounded-md text-xs font-semibold uppercase tracking-wider">Advisory / Consulting</span>
-                        <h4 class="text-lg font-bold text-slate-900">Project Management</h4>
-                        <div class="text-xs text-slate-500 font-mono space-y-1">
+                <!-- Card Format 3 -->
+                <div class="border border-stone-200 p-6 flex flex-col justify-between bg-[#faf9f6] hover:border-stone-400 transition-colors">
+                    <div class="space-y-4">
+                        <span class="text-[9px] font-mono uppercase tracking-widest text-amber-700 block">Advisory / Consulting</span>
+                        <h4 class="serif-title text-lg text-stone-900">Project Management</h4>
+                        <div class="text-[11px] text-stone-400 font-mono space-y-0.5 border-b border-stone-200 pb-3">
                             <p><strong>Client:</strong> Leading Regional Bank</p>
-                            <p><strong>Scope:</strong> Strategic anti-money laundering and compliance system implementation</p>
+                            <p><strong>Scope:</strong> Anti-Money Laundering Framework</p>
                         </div>
-                        <p class="text-sm text-slate-600 leading-relaxed">
-                            Successful launch of new system aligned with regulatory requirements.
+                        <p class="text-xs text-stone-600 font-light leading-relaxed">
+                            Successful launch of a comprehensive new system fully aligned with local and international regulatory frameworks.
                         </p>
                     </div>
                 </div>
 
-                <div class="md:col-span-4 bg-white rounded-2xl border border-slate-200 shadow-sm flex flex-col justify-between overflow-hidden group hover:shadow-md transition-shadow">
-                    <div class="p-6 space-y-4">
-                        <span class="inline-block px-2.5 py-1 bg-amber-50 text-amber-700 rounded-md text-xs font-semibold uppercase tracking-wider">Capital Deployment</span>
-                        <h4 class="text-lg font-bold text-slate-900">Procurement Capital Scaling</h4>
-                        <div class="text-xs text-slate-500 font-mono space-y-1">
-                            <p><strong>Client:</strong> Leading Digital Procurement Platform</p>
-                            <p><strong>Scope:</strong> Receivables Financing</p>
+                <!-- Card Format 4 -->
+                <div class="border border-stone-200 p-6 flex flex-col justify-between bg-[#faf9f6] hover:border-stone-400 transition-colors">
+                    <div class="space-y-4">
+                        <span class="text-[9px] font-mono uppercase tracking-widest text-amber-700 block">Capital Deployment</span>
+                        <h4 class="serif-title text-lg text-stone-900">Procurement Capital Scaling</h4>
+                        <div class="text-[11px] text-stone-400 font-mono space-y-0.5 border-b border-stone-200 pb-3">
+                            <p><strong>Client:</strong> Digital Procurement Platform</p>
+                            <p><strong>Scope:</strong> Receivables Asset Financing</p>
                         </div>
-                        <p class="text-sm text-slate-600 leading-relaxed">
+                        <p class="text-xs text-stone-600 font-light leading-relaxed">
                             Deployed asset-backed funding mechanism in local currency. Enabled enterprise platform to multiply active corporate transaction volumes 50x within a 24-month horizon.
                         </p>
                     </div>
                 </div>
 
-                <div class="md:col-span-4 bg-white rounded-2xl border border-slate-200 shadow-sm flex flex-col justify-between overflow-hidden group hover:shadow-md transition-shadow">
-                    <div class="p-6 space-y-4">
-                        <span class="inline-block px-2.5 py-1 bg-amber-50 text-amber-700 rounded-md text-xs font-semibold uppercase tracking-wider">Capital Deployment</span>
-                        <h4 class="text-lg font-bold text-slate-900">New Market Expansion</h4>
-                        <div class="text-xs text-slate-500 font-mono space-y-1">
+                <!-- Card Format 5 -->
+                <div class="border border-stone-200 p-6 flex flex-col justify-between bg-[#faf9f6] hover:border-stone-400 transition-colors">
+                    <div class="space-y-4">
+                        <span class="text-[9px] font-mono uppercase tracking-widest text-amber-700 block">Capital Deployment</span>
+                        <h4 class="serif-title text-lg text-stone-900">New Market Expansion</h4>
+                        <div class="text-[11px] text-stone-400 font-mono space-y-0.5 border-b border-stone-200 pb-3">
                             <p><strong>Client:</strong> Financial Wellness Platform</p>
-                            <p><strong>Scope:</strong> Receivables Financing</p>
+                            <p><strong>Scope:</strong> Alternate Credit Funding</p>
                         </div>
-                        <p class="text-sm text-slate-600 leading-relaxed">
-                            Rapid response funding mechanism enabled company to grow business in new market with confidence of funding support with incentives to grow sustainably built into structure.
+                        <p class="text-xs text-stone-600 font-light leading-relaxed">
+                            Rapid response funding mechanism enabled company to grow business in new market with confidence of sustainable, built-in structural incentives.
                         </p>
                     </div>
                 </div>
 
-                <!-- Anchor Card spanning full bottom boundary if odd layout number occurs -->
-                <div class="md:col-span-12 bg-white rounded-2xl border border-slate-200 shadow-sm flex flex-col justify-between overflow-hidden group hover:shadow-md transition-shadow">
-                    <div class="p-6 space-y-4">
-                        <span class="inline-block px-2.5 py-1 bg-amber-50 text-amber-700 rounded-md text-xs font-semibold uppercase tracking-wider">Capital Deployment</span>
-                        <h4 class="text-lg font-bold text-slate-900">Service Industry Working Capital</h4>
-                        <div class="text-xs text-slate-500 font-mono space-y-1">
+                <!-- Card Format 6 -->
+                <div class="border border-stone-200 p-6 flex flex-col justify-between bg-[#faf9f6] hover:border-stone-400 transition-colors">
+                    <div class="space-y-4">
+                        <span class="text-[9px] font-mono uppercase tracking-widest text-amber-700 block">Capital Deployment</span>
+                        <h4 class="serif-title text-lg text-stone-900">Service Industry Capital</h4>
+                        <div class="text-[11px] text-stone-400 font-mono space-y-0.5 border-b border-stone-200 pb-3">
                             <p><strong>Client:</strong> Events Management Company</p>
-                            <p><strong>Scope:</strong> Working Capital Funding</p>
+                            <p><strong>Scope:</strong> Working Capital Optimization</p>
                         </div>
-                        <p class="text-sm text-slate-600 leading-relaxed">
-                            Solution designed to serve the common challenge for events companies - Large payables combined with irregular project schedules making traditional financing structures difficult to access.
+                        <p class="text-xs text-stone-600 font-light leading-relaxed">
+                            Solution designed to solve complex cash flow mismatches derived from large trade payables combined with irregular corporate project execution schedules.
                         </p>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
 
-    <section id="contact" class="py-20 bg-slate-900 text-white">
-        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-12 gap-12">
-            <div class="md:col-span-6 space-y-4">
-                <h3 class="text-2xl font-bold tracking-tight">Connect with Tin Hill Ventures</h3>
-                <p class="text-slate-400 font-light max-w-md text-sm leading-relaxed">
+    <!-- Minimal Clean Contact Anchor -->
+    <section id="contact" class="py-24 bg-stone-900 text-stone-100">
+        <div class="max-w-7xl mx-auto px-8 grid md:grid-cols-12 gap-12">
+            <div class="md:col-span-7 space-y-4">
+                <span class="text-xs font-mono uppercase tracking-widest text-amber-500 block">Engagement</span>
+                <h3 class="serif-title text-3xl font-light">Connect with Tin Hill Ventures</h3>
+                <p class="text-stone-400 font-light max-w-md text-xs leading-relaxed">
                     Explore strategic advisory engagements or discuss customized funding configurations aligned to your corporate needs.
                 </p>
-                <div class="flex items-center space-x-4 pt-2">
-                    <a href="mailto:hello@tinhillventures.com" class="w-10 h-10 bg-white/5 hover:bg-amber-400 hover:text-slate-900 rounded-xl flex items-center justify-center transition-all border border-white/10 text-slate-300">
-                        <i class="fa-regular fa-envelope"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/company/tinhillventures" target="_blank" class="w-10 h-10 bg-white/5 hover:bg-amber-400 hover:text-slate-900 rounded-xl flex items-center justify-center transition-all border border-white/10 text-slate-300">
-                        <i class="fa-brands fa-linkedin-in"></i>
-                    </a>
+            </div>
+            <div class="md:col-span-5 flex flex-col justify-between items-start md:items-end space-y-6">
+                <div class="space-y-2 text-left md:text-right">
+                    <span class="text-[10px] font-mono text-stone-500 uppercase tracking-widest block">Direct Verification Channels</span>
+                    <a href="mailto:hello@tinhillventures.com" class="text-sm block hover:text-amber-400 transition-colors">hello@tinhillventures.com</a>
+                    <a href="https://www.linkedin.com/company/tinhillventures" target="_blank" class="text-sm block hover:text-amber-400 transition-colors">LinkedIn Corporate Registry</a>
                 </div>
             </div>
         </div>
         
-        <div class="max-w-7xl mx-auto px-6 mt-16 pt-8 border-t border-slate-800 text-xs text-slate-500 flex flex-col sm:flex-row justify-between items-center gap-4">
+        <div class="max-w-7xl mx-auto px-8 mt-24 pt-8 border-t border-stone-800 text-[10px] font-mono text-stone-500 flex flex-col sm:flex-row justify-between items-center gap-4">
             <p>&copy; 2026 Tin Hill Ventures Pte Ltd. All rights reserved.</p>
-            <p class="font-light">Hosted securely via GitHub Pages</p>
+            <p class="uppercase tracking-widest">GitHub Pages Deployment Channel</p>
         </div>
     </section>
 
